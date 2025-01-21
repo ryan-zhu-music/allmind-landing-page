@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wdth,wght@75..125,100..800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,10 +9,12 @@
   --secondary: #f2f3f5;
   --text-stretch-base: 106%;
   --text-stretch-lg: 112%;
-
+  --color-mint-opaque: #23e6a844;
   --color-mint-light: #e7feee;
   --color-mint: #23e6a8;
-  --color-navy-light: #a194be;
+  --color-lavender: #a194be;
+  --color-navy-opaque: #51577744;
+  --color-navy-light: #515777;
   --color-navy: #130f35;
   --color-navy-dark: #140f3b;
 }
@@ -28,7 +30,29 @@ h1, h2, h3 {
   font-stretch: var(--text-stretch-lg);
 }
 
+
 .container {
-  max-width: min(100%, 1300px);
+  max-width: min(100%, 1400px);
   margin: 0 auto;
+}
+
+.text-stretch-lg {
+  font-stretch: var(--text-stretch-lg);
+}
+
+@layer base {
+  h1 {
+    font-weight: 550;
+    @apply text-6xl;
+  }
+  h2 {
+    @apply text-5xl font-semibold;
+  }
+  h3 {
+    @apply text-2xl font-semibold;
+  }
+  a {
+    @apply text-mint;
+  }
+
 }
