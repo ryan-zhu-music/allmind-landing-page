@@ -10,7 +10,13 @@ export default {
     extend: {
       colors: {
         background: "var(--background)",
-        foreground: "var(--foreground)",
+        foreground: "var(--color-navy)",
+        secondary: "var(--secondary)",
+        "mint-light": "var(--color-mint-light)",
+        mint: "var(--color-mint)",
+        "navy-light": "var(--color-navy-light)",
+        navy: "var(--color-navy)",
+        "navy-dark": "var(--color-navy-dark)",
       },
     },
   },

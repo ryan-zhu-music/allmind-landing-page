@@ -1,21 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --background: #fdfffe;
+  --secondary: #f2f3f5;
+  --text-stretch-base: 106%;
+  --text-stretch-lg: 112%;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-mint-light: #e7feee;
+  --color-mint: #23e6a8;
+  --color-navy-light: #a194be;
+  --color-navy: #130f35;
+  --color-navy-dark: #140f3b;
 }
 
 body {
-  color: var(--foreground);
+  color: var(--color-navy-dark);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Anek Latin', sans-serif;
+  font-stretch: var(--text-stretch-base);
+}
+
+h1, h2, h3 {
+  font-stretch: var(--text-stretch-lg);
+}
+
+.container {
+  max-width: min(100%, 1300px);
+  margin: 0 auto;
 }
