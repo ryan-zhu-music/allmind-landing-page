@@ -35,7 +35,7 @@ export default function Button({
   return (
     <button
       onClick={onClick}
-      className={`rounded-md font-semibold ${variants[variant]} ${sizes[size]} ${className}`}
+      className={`whitespace-nowrap h-fit rounded-md font-semibold ${variants[variant]} ${sizes[size]} ${className}`}
     >
       {children}
     </button>
