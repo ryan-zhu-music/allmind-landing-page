@@ -36,7 +36,7 @@ export default function Testimonial() {
               <Image
                 src={`/partners/${subpage}`}
                 alt={subpage}
-                width={160}
+                width={140}
                 height={200}
                 className="object-contain"
               />
@@ -86,8 +86,9 @@ export default function Testimonial() {
           <Image
             src="/icons/badges.webp"
             alt="Badge 1"
-            width={2000}
+            width={1600}
             height={1000}
+            className="w-full object-contain"
           />
         </div>
         <div className="grid grid-cols-2 my-32 gap-32">
@@ -152,7 +153,7 @@ export default function Testimonial() {
             />
           </div>
         </div>
-        <div className="w-full rounded-3xl bg-secondary p-32 gap-32 flex">
+        <div className="w-full rounded-3xl bg-secondary p-20 gap-32 flex">
           <div className="flex flex-col gap-8 w-2/5">
             <h3>Certified data centers and upstream providers</h3>
             <div className="grid grid-cols-5 gap-5">

@@ -293,7 +293,7 @@ export default function Solutions() {
             <h3 className="text-3xl">
               Global proxy pool for easy public data access
             </h3>
-            <p className="text-2xl">
+            <p className="text-xl">
               Utilize one of the most reliable and largest proxy services in the
               market with{" "}
               <strong>102M+ IPs, covering 195 countries worldwide.</strong>

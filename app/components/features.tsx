@@ -39,7 +39,13 @@ function Subpage({
         </div>
       </div>
       <div className="flex justify-center">
-        <Image src={image} alt={title} width={600} height={400} />
+        <Image
+          src={image}
+          alt={title}
+          width={600}
+          height={400}
+          className="object-contain"
+        />
       </div>
     </div>
   );
@@ -130,7 +136,7 @@ export default function Features() {
   const [selectedSubpage, setSelectedSubpage] = useState(0);
 
   return (
-    <section className="w-full flex flex-col items-center justify-start h-screen">
+    <section className="w-full flex flex-col items-center justify-start">
       <div className="container flex flex-col items-center justify-start py-20 gap-10">
         <h2 className="max-w-[max(50%,600px)] text-center leading-snug">
           Oxylabs products fuel top industries with public web data

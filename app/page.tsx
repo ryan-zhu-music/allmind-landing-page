@@ -9,7 +9,7 @@ import Footer from "./components/footer";
 
 export default function Home() {
   return (
-    <div className="relative flex flex-col place-content-center">
+    <div className="relative flex flex-col w-screen place-content-center">
       <Nav />
       <Hero />
       <Copilot />

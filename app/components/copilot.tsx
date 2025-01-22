@@ -21,13 +21,13 @@ export default function Copilot() {
             NEW FEATURE
           </p>
           <h2>Introducing OxyCopilot</h2>
-          <p className="text-2xl">
+          <p className="text-xl">
             Speed up data collection with{" "}
             <strong>the first AI-powered assistant</strong> designed to handle
             diverse website structures and meet your data extraction needs
             without manual coding.
           </p>
-          <ul className="list-disc list-inside text-2xl">
+          <ul className="list-disc list-inside text-xl">
             <li>Start scraping using English language prompts</li>
             <li>Parse raw HTML into structured data </li>
             <li>Scale through the Web Scraper API platform</li>

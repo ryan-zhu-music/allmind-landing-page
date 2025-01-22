@@ -68,7 +68,7 @@ export default function Developers() {
               See documentation
             </Button>
           </div>
-          <div className="bg-navy-opaque rounded-xl flex flex-col items-start justify-center px-8 py-6 gap-2">
+          <div className="relative bg-navy-opaque rounded-xl flex flex-col items-start justify-start px-8 py-6 gap-2 overflow-x-hidden">
             <p className="text-secondary">Choose product:</p>
             <div className="w-full rounded-lg bg-foreground py-2 px-3">
               <p>Residential Proxies</p>
@@ -79,10 +79,19 @@ export default function Developers() {
               customStyle={{
                 background: "transparent",
                 backgroundColor: "transparent",
+                fontSize: "0.8rem",
+                zIndex: 0,
               }}
             >
               {codeSample}
             </SyntaxHighlighter>
+            <button
+              className="absolute bottom-4 right-4 bg-lavender rounded-full px-4 py-1 flex items-center gap-2 text-background text-sm"
+              onClick={() => navigator.clipboard.writeText(codeSample)}
+            >
+              <Image src="/icons/copy.svg" alt="Copy" width={17} height={17} />
+              Copy
+            </button>
           </div>
         </div>
         <Separator />

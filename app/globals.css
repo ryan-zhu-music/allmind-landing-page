@@ -24,6 +24,8 @@ body {
   background: var(--background);
   font-family: 'Anek Latin', sans-serif;
   font-stretch: var(--text-stretch-base);
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 h1, h2, h3 {
@@ -43,13 +45,13 @@ h1, h2, h3 {
 @layer base {
   h1 {
     font-weight: 550;
-    @apply text-6xl;
+    @apply text-5xl;
   }
   h2 {
-    @apply text-5xl font-semibold;
+    @apply text-4xl font-semibold;
   }
   h3 {
-    @apply text-4xl font-medium;
+    @apply text-3xl font-medium;
   }
   a {
     @apply text-mint;

@@ -34,6 +34,7 @@ export default function Hero() {
               alt="Hero graphic"
               width={1000}
               height={1000}
+              className="object-contain"
             />
           </div>
         </div>
@@ -46,8 +47,9 @@ export default function Hero() {
               key={partner}
               src={`/partners/${partner}.webp`}
               alt={partner}
-              width={130}
-              height={130}
+              width={100}
+              height={100}
+              className="object-contain"
             />
           ))}
         </div>
