@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Separator() {
-  return <div className="w-full h-[1px] bg-navy-light" />;
+  return <div className="w-full h-[1.5px] bg-slate-200" />;
 }

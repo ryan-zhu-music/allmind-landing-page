@@ -22,7 +22,7 @@ const variants = {
 const sizes = {
   sm: "px-2 py-1.5 text-sm",
   md: "px-3 py-2 text-base",
-  lg: "px-4 py-3 text-lg",
+  lg: "px-7 py-3 text-lg",
 };
 
 export default function Button({
@@ -35,7 +35,7 @@ export default function Button({
   return (
     <button
       onClick={onClick}
-      className={`whitespace-nowrap h-fit rounded-md font-semibold ${variants[variant]} ${sizes[size]} ${className}`}
+      className={`whitespace-nowrap w-fit h-fit rounded-md font-semibold ${variants[variant]} ${sizes[size]} ${className}`}
     >
       {children}
     </button>
