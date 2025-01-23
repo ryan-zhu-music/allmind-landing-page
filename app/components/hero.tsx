@@ -14,8 +14,8 @@ const partners = [
 
 export default function Hero() {
   return (
-    <header className="w-full flex flex-col items-center justify-start h-screen">
-      <div className="container flex flex-col items-center justify-end h-full">
+    <header className="w-full flex flex-col items-center justify-start">
+      <div className="container flex flex-col items-center justify-end pt-32">
         <div className="w-full flex flex-nowrap">
           <div className="w-1/2 flex flex-col items-start justify-center gap-8">
             <h1>Easy Access to Web Data at Scale</h1>

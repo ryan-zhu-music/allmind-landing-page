@@ -38,9 +38,9 @@ export default function Nav() {
           <p className="font-semibold">Log in</p>
         </div>
       </div>
-      <div className="w-full h-20 bg-background shadow-lg">
+      <div className="w-full h-16 bg-background shadow-lg">
         <div className="container flex h-full items-center justify-start gap-8">
-          <Image src="/logo.svg" alt="Oxylabs logo" width={100} height={100} />
+          <Image src="/logo.svg" alt="Oxylabs logo" width={130} height={100} />
           <p className="text-base font-medium">Proxies</p>
           <p className="text-base font-medium">Web Scraper API</p>
           <p className="text-base font-medium">Datasets</p>
